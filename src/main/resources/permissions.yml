@@ -1,0 +1,5 @@
+# Example rank permissions
+rank1:
+  - lynx.country.create
+rank10:
+  - lynx.admin.*
