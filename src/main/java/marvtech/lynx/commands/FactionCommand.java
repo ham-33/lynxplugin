@@ -40,8 +40,4 @@ public class FactionCommand {
                 return "Unknown subcommand";
         }
     }
-=======
-/** Command placeholder for faction. */
-public class FactionCommand {
-
 }

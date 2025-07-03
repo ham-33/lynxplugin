@@ -17,8 +17,4 @@ public class LynxCommand {
                 return "Unknown subcommand";
         }
     }
-=======
-/** Command placeholder for lynx command. */
-public class LynxCommand {
-
 }
