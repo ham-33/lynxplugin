@@ -1,0 +1,12 @@
+name: Lynx
+main: marvtech.lynx.Lynx
+version: 0.1
+commands:
+  country:
+    description: Country management
+  faction:
+    description: Faction management
+  lynx:
+    description: Lynx utilities
+  admin:
+    description: Admin commands
