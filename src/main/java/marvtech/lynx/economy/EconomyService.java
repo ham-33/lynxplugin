@@ -28,8 +28,4 @@ public class EconomyService {
     public void set(String country, double amount) {
         balances.put(country.toLowerCase(), amount);
     }
-=======
-/** Service placeholder for economy integration. */
-public class EconomyService {
-
 }

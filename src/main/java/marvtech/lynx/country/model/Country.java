@@ -71,8 +71,4 @@ public class Country {
         this.capitalX = x;
         this.capitalZ = z;
     }
-=======
-/** Simple POJO for country. */
-public class Country {
-
 }

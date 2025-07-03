@@ -73,8 +73,4 @@ public class CountryService {
         Country c = getCountry(name);
         if (c != null) c.setCapital(x, z);
     }
-=======
-/** Service placeholder for country business logic. */
-public class CountryService {
-
 }
