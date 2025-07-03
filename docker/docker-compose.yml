@@ -1,1 +1,8 @@
-Compose placeholder
+version: '3'
+services:
+  folia:
+    build: .
+    volumes:
+      - ./data:/data
+    ports:
+      - "25565:25565"

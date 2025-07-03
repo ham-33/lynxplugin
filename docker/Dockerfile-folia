@@ -1,1 +1,8 @@
-Dockerfile placeholder
+FROM openjdk:17-jdk-slim
+
+WORKDIR /data
+
+# Copy plugin jar into the container. Build the jar before building the image.
+COPY target/lynx-0.1-SNAPSHOT.jar /data/plugin.jar
+
+CMD ["java", "-jar", "/data/plugin.jar"]
