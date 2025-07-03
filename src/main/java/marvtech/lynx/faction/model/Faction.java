@@ -30,8 +30,4 @@ public class Faction {
     public void removeCountry(String country) {
         countries.remove(country);
     }
-=======
-/** Simple POJO for faction. */
-public class Faction {
-
 }

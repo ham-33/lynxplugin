@@ -34,8 +34,4 @@ public class BankCommand {
                 return "Unknown subcommand";
         }
     }
-=======
-/** Command placeholder for bank. */
-public class BankCommand {
-
 }

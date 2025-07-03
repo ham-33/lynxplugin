@@ -47,8 +47,4 @@ public class AdminCommand {
                 return "Unknown bank command";
         }
     }
-=======
-/** Command placeholder for admin. */
-public class AdminCommand {
-
 }

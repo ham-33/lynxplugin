@@ -43,7 +43,4 @@ public class FactionService {
             f.removeCountry(country);
         }
     }
-=======
-/** Service placeholder for faction operations. */
-public class FactionService {
 }
