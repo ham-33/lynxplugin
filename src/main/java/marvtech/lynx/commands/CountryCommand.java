@@ -74,4 +74,8 @@ public class CountryCommand {
                 return "Unknown subcommand";
         }
     }
+=======
+/** Command placeholder for country. */
+public class CountryCommand {
+
 }

@@ -35,4 +35,10 @@ public class Lynx {
     public EconomyService getEconomyService() {
         return economyService;
     }
+=======
+/**
+ * Plugin main class placeholder.
+ */
+public class Lynx {
+
 }

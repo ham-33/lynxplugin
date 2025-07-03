@@ -1,5 +1,6 @@
 package marvtech.lynx.commands;
 
+
 import marvtech.lynx.economy.EconomyService;
 
 /**
@@ -46,4 +47,8 @@ public class AdminCommand {
                 return "Unknown bank command";
         }
     }
+=======
+/** Command placeholder for admin. */
+public class AdminCommand {
+
 }

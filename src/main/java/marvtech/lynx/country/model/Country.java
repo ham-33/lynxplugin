@@ -1,5 +1,6 @@
 package marvtech.lynx.country.model;
 
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -70,4 +71,8 @@ public class Country {
         this.capitalX = x;
         this.capitalZ = z;
     }
+=======
+/** Simple POJO for country. */
+public class Country {
+
 }

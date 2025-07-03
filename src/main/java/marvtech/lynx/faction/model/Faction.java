@@ -1,5 +1,6 @@
 package marvtech.lynx.faction.model;
 
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -29,4 +30,8 @@ public class Faction {
     public void removeCountry(String country) {
         countries.remove(country);
     }
+=======
+/** Simple POJO for faction. */
+public class Faction {
+
 }
