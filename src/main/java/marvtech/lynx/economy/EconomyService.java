@@ -24,4 +24,8 @@ public class EconomyService {
         balances.put(key, bal - amount);
         return true;
     }
+
+    public void set(String country, double amount) {
+        balances.put(country.toLowerCase(), amount);
+    }
 }

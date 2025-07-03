@@ -15,7 +15,7 @@ public class FactionCommand {
 
     public String handle(String[] args) {
         if (args.length == 0) {
-            return "Usage: /faction <create|delete|list>";
+            return "Usage: /faction <create|delete|join|leave|list>";
         }
         switch (args[0].toLowerCase()) {
             case "create":
@@ -26,6 +26,14 @@ public class FactionCommand {
                 if (args.length < 2) return "Specify a faction name";
                 service.deleteFaction(args[1]);
                 return "Faction "+args[1]+" deleted";
+            case "join":
+                if (args.length < 3) return "Usage: /faction join <faction> <country>";
+                service.addCountry(args[1], args[2]);
+                return "Joined";
+            case "leave":
+                if (args.length < 3) return "Usage: /faction leave <faction> <country>";
+                service.removeCountry(args[1], args[2]);
+                return "Left";
             case "list":
                 return "Factions: "+service.getFactions();
             default:

@@ -29,4 +29,18 @@ public class FactionService {
     public Collection<Faction> getFactions() {
         return factions.values();
     }
+
+    public void addCountry(String faction, String country) {
+        Faction f = getFaction(faction);
+        if (f != null) {
+            f.addCountry(country);
+        }
+    }
+
+    public void removeCountry(String faction, String country) {
+        Faction f = getFaction(faction);
+        if (f != null) {
+            f.removeCountry(country);
+        }
+    }
 }
