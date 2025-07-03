@@ -1,0 +1,20 @@
+name: Lynx
+version: 1.0
+main: marvtech.lynx.Lynx
+api-version: "1.20"
+commands:
+  lynx:
+    description: Main plugin command
+    usage: /lynx
+  admin:
+    description: Admin commands
+    usage: /admin
+  country:
+    description: Country related commands
+    usage: /country
+  bank:
+    description: Bank related commands
+    usage: /bank
+  faction:
+    description: Faction related commands
+    usage: /faction

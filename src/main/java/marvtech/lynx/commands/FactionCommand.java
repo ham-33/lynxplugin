@@ -1,5 +1,16 @@
 package marvtech.lynx.commands;
 
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.jetbrains.annotations.NotNull;
+
 /** Command placeholder for faction. */
-public class FactionCommand {
+public class FactionCommand implements CommandExecutor {
+    @Override
+    public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command,
+                             @NotNull String label, @NotNull String[] args) {
+        sender.sendMessage("Faction command executed");
+        return true;
+    }
 }
